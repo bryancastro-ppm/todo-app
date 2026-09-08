@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   scan:
-    uses: bryancastro-ppm/tech-radar-ppm/.github/workflows/scan-dependencies.yml@main
+    uses: ${{ github.repository_owner }}/tech-radar-ppm/.github/workflows/scan-dependencies.yml@main
     with:
       product-name: todo-app
     secrets:
